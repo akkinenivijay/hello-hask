@@ -1,13 +1,15 @@
 # Table of Contents
 
-1.  [Welcome to Org mode](#orgf348e37)
-2.  [This is a headline, it starts with one or more stars](#orgffeb754)
-3.  [Working with lists](#org0481d25)
-    1.  [Moving around in our outline](#org0ca2dac)
-    2.  [Lord of the Rings](#orgf32ffa7)
+1.  [Welcome to Org mode](#orgabe6fef)
+2.  [This is a headline, it starts with one or more stars](#orgd0c13ee)
+3.  [Working with lists](#orgcb13248)
+    1.  [Moving around in our outline](#orgbb0b19f)
+    2.  [Lord of the Rings](#orgea79686)
+    3.  [Source Code.](#orgc1c5abc)
+    4.  [New Entry](#orgb643ea1)
 
 
-<a id="orgf348e37"></a>
+<a id="orgabe6fef"></a>
 
 # Welcome to Org mode
 
@@ -15,26 +17,26 @@ Welcome, and thanks for trying out Org mode. Making outlines in
   Org is very simple. It is just text! Just start typing.
 
 
-<a id="orgffeb754"></a>
+<a id="orgd0c13ee"></a>
 
 # This is a headline, it starts with one or more stars
 
 A heading has one star, a sub-heading two, etc.
 
 
-<a id="org0481d25"></a>
+<a id="orgcb13248"></a>
 
 # Working with lists
 
 
-<a id="org0ca2dac"></a>
+<a id="orgbb0b19f"></a>
 
 ## Moving around in our outline
 
 Hello I am just an outline
 
 
-<a id="orgf32ffa7"></a>
+<a id="orgea79686"></a>
 
 ## Lord of the Rings
 
@@ -56,3 +58,16 @@ Important actors in this film are:
     him very well from his role as Mikey Walsh in The Goonies.
 
 You can make words **bold**, *italic*, <span class="underline">underlined</span>, `code` and `verbatim`, and, if you must, <del>strike-through</del>.
+
+
+<a id="orgc1c5abc"></a>
+
+## Source Code.
+
+    (defn hello [greeting & who]
+      (println greeting who))
+
+
+<a id="orgb643ea1"></a>
+
+## New Entry

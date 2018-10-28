@@ -22,3 +22,9 @@ Hello I am just an outline
    - Sean Austin :: He plays Sam, Frodo's friend.  I still remember
      him very well from his role as Mikey Walsh in The Goonies.
  You can make words *bold*, /italic/, _underlined_, =code= and ~verbatim~, and, if you must, +strike-through+.
+** Source Code.
+#+BEGIN_SRC clojure
+(defn hello [greeting & who]
+  (println greeting who))
+#+END_SRC
+** New Entry
