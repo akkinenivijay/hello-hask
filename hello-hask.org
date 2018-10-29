@@ -21,10 +21,26 @@ Hello I am just an outline
    - Elijah Wood :: He plays Frodo
    - Sean Austin :: He plays Sam, Frodo's friend.  I still remember
      him very well from his role as Mikey Walsh in The Goonies.
- You can make words *bold*, /italic/, _underlined_, =code= and ~verbatim~, and, if you must, +strike-through+.
+g You can make words *bold*, /italic/, _underlined_, =code= and ~verbatim~, and, if you must, +strike-through+.
 ** Source Code.
-#+BEGIN_SRC clojure
-(defn hello [greeting & who]
-  (println greeting who))
+#+BEGIN_SRC scala
+object SalaryRaiser {
+
+  def smallPromotion(salaries: List[Double]): List[Double] =
+    salaries.map(salary => salary * 1.1)
+
+  def greatPromotion(salaries: List[Double]): List[Double] =
+    salaries.map(salary => salary * math.log(salary))
+
+  def hugePromotion(salaries: List[Double]): List[Double] =
+    salaries.map(salary => salary * salary)
+}
 #+END_SRC
-** New Entry
+** New Entry :ATTACH:
+:PROPERTIES:
+:ID:       12D4B5E4-140A-4F1D-9E01-D638A13963AF
+:Attachments: images_2018-10-29_11-47-16.png
+:END:
+
+#+DOWNLOADED: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTerwy5t9Em4r_EyMLgJkiDQIFZjMIZkrXNvpUgz2Ea4TPvwJCxHQ @ 2018-10-29 11:47:16
+[[file:data/12/D4B5E4-140A-4F1D-9E01-D638A13963AF/images_2018-10-29_11-47-16.png]]
